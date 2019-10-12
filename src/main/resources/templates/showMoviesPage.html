@@ -6,6 +6,7 @@
     <title>Search your movie</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/showMovies.css">
 </head>
 <body>
@@ -24,6 +25,7 @@
                     <h5 th:text="${movie.title}"></h5>
                     <p th:text="${movie.year}" class="card-text"></p>
                     <p th:text="${movie.type}" class="card-text"></p>
+                    <h3 th:text="${movie.price}"/>
                     <a href="#" class="btn btn-primary">Add to Chart</a>
                     <a href="#" class="btn">See Details/a>
                 </div>

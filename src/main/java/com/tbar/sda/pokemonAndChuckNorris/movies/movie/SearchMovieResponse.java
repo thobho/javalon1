@@ -1,4 +1,4 @@
-package com.tbar.sda.pokemonAndChuckNorris.movies;
+package com.tbar.sda.pokemonAndChuckNorris.movies.movie;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

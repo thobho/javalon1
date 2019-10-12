@@ -1,4 +1,4 @@
-package com.tbar.sda.pokemonAndChuckNorris.movies;
+package com.tbar.sda.pokemonAndChuckNorris.movies.movie;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
